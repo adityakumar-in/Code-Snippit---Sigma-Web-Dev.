@@ -37,4 +37,4 @@ function App() {
   )
 }
 
-export default App
+export default memo(App) // memo is used to prevent re-rendering of the component if the props are same even if your parent component is re-rendering, if props changes then only it will re-render
