@@ -1,4 +1,5 @@
-// npm install react-hook-formimport { React } from 'react';
+// npm install react-hook-form
+import { React } from 'react';
 import { useForm } from "react-hook-form"
 
 const App = () => {
