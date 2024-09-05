@@ -1,5 +1,4 @@
 // If server doesn't respond correctly, then check '"main": "fileName.js",' in package.js & check if it's file name is correct or not
-
 const express = require('express')
 const blog = require('./routes/4. blog') // Importing blog routes
 const app = express()

@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 // Serving a (.html) files on server - Give Absolute/Relative Path
 app.get('/index', (req, res) => {
-  res.sendFile("/Users/aditya/Documents/Coding/Code Snippit - Sigma Web Dev./BackEnd/Express Js/templates/3.\ index.html")
+  res.sendFile("/Users/aditya/Documents/Coding/Code Snippit - Sigma Web Dev./BackEnd/Express Js/3.\ templates/3.\ index.html")
 })
 app.get('/json', (req, res) => {
   res.json({a:1, b:2})
