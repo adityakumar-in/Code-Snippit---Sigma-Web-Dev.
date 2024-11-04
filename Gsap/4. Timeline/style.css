@@ -1,0 +1,46 @@
+#box1, #box2, #box3, #box4, #box5, #Rbox1, #Rbox2, #Rbox3, #Rbox4, #Rbox5 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+}
+#box1, #Rbox1 {
+    background-color: rgb(132, 34, 34);
+}
+#box2, #Rbox2 {
+    background-color: rgb(22, 121, 22);
+}
+#box3, #Rbox3 {
+    background-color: rgb(27, 27, 113);
+}
+#box4, #Rbox4 {
+    background-color: rgb(179, 179, 57);
+}
+#box5, #Rbox5 {
+    background-color: rgb(41, 124, 145);
+}
+
+body {
+    background-color: black;
+    color: rgb(26, 174, 174)
+}
+
+#play, #pause, #reverse {
+    background-color: rgba(194, 233, 233, 0.272);
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px 0;
+    position: sticky;
+    top:14px;
+}
+#pause {
+    top: 80px;
+}
+#reverse {
+    top: 146px;
+}

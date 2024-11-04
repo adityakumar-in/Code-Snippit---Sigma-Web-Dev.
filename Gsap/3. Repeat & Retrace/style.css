@@ -1,0 +1,16 @@
+#box1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+}
+#box1 {
+    background-color: rgb(132, 34, 34);
+}
+body {
+    background-color: black;
+    color: rgb(26, 174, 174)
+}
